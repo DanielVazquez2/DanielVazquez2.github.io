@@ -1,5 +1,5 @@
 body {
-    background-color: #f4f4f4;
+    background-color:whitesmoke;
     color: #333;
 }
 
@@ -12,15 +12,13 @@ main {
     width: 45%;
     margin: 10px;
 }
-.box{
-    background-color: darkgrey;
-    color: white;
-    margin: 1.5px;
-}
 .card :nth-child(4){
 display: flex;
 flex-grow: 1;
 flex-wrap: wrap;
+}
+.box{
+    margin: 3px;
 }
 .card nav{
     display: flex;
@@ -30,10 +28,10 @@ img{
 margin: 2%;
 }
 header{
-    background-color: red;
+    background-color: blue;
 }
 .logo{
-    color:white;
+    color: white;
 }
 .logo2{
     color: greenyellow;
@@ -43,8 +41,11 @@ header{
     margin: 10px;
 }
 .logo3{
-    color: blue;
+    color: red;
 }
 .logo4{
 color:grey;
+}
+a{
+    color: black;
 }
